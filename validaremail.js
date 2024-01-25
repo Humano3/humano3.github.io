@@ -12,17 +12,3 @@ function validateEmail(){
     return false;  
   }
 }
-
-    function validarpassword() {
-      var passwordInput = document.getElementById("password");
-      var password = passwordInput.value;
-
-      // Verificar si la contraseña cumple con el límite de 8 caracteres
-      if (password.length >= 8) {
-        // La contraseña cumple con el límite
-        console.log("Contraseña es válida");
-      } else {
-        // La contraseña no cumple con el límite
-        console.log("La contraseña debe tener al menos 8 caracteres");
-      }
-    }
