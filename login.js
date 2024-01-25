@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
   console.log('hello, wrold!');
-  var imputemail = document.getElementById('email');
-  var imputpassword = document.getElementById('password');
+  var inputemail = document.getElementById('email');
+  var inputpassword = document.getElementById('password');
 console.log(inputemail);
 console.log(inputpassword);
 });
