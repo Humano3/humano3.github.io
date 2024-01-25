@@ -1,4 +1,4 @@
-function validaremail(){
+function validateEmail(){
  
   var emailField = document.getElementById('email');
 
@@ -6,8 +6,9 @@ function validaremail(){
 
   if(validEmail.test(emailField.value)) {
     alert('El correo ha sido validado');
-          return true;  } 
-  else{
+    return true;
+  }else{
     alert('El correo no ha sido validado, vuelva a probar');
-          return false;  }
+    return false;  
+  }
 }
