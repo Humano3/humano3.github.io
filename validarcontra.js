@@ -1,4 +1,4 @@
-function validatePassword() {
+function validarPassword() {
       var password = document.getElementById("password").value;
       if (password.length === 8) {
         alert("Contraseña validadá y almacenada :3");
